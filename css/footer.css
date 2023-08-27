@@ -1,7 +1,6 @@
 .footer {
   text-align: center;
-  padding: 0 4%;
-
+  padding: .5rem 4%;
 }
 .footer .social {
   padding: 1rem 0;
@@ -19,11 +18,12 @@
   height: 2rem;
   font-size: 1rem;
   border: var(--border);
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .footer .social a:hover {
   transform: translateY(-10px);
   cursor: pointer;
+  box-shadow: var(--box-shadow);
 }
 .footer .social a:nth-child(1) {
   color: var(--blue-face);
@@ -53,11 +53,15 @@
 
 .credits {
   font-size: 1rem;
-  color: var(--grey);
-  font-family: "Roboto";
+  font-family: "Roboto", "Montserrat" sans-serif;
+  /* color: var(--grey); */
   font-weight: 500;
+  padding-bottom: 0.5rem;
 }
 .credits span {
-    color: var(--grey);
-    font-weight: 400;
+  /* color: var(--grey); */
+  font-weight: 400;
+}
+.credits a {
+  color: var(--white);
 }

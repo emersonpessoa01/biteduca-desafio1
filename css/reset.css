@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Roboto:wght@100;300;400;500&display=swap");
 
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,500;1,600&family=Poppins:wght@300;500;800&family=Roboto:wght@100;300;400;500&display=swap'); */
-
 :root {
   --azul-claro: #84c4f8;
   --border: 1px solid rgba(213, 210, 210, 0.9);
   --white: #ffffff;
   --black: #13131a;
-  --grey:#373737;
-  --bg:#2a2e35;
+  --grey: #373737;
+  /* --bg: #2a2e35; */
+  --bg: #181b20;
+  --color-primary:#191d2b;
+  --box-shadow: 1px 4px 15px #fff;
 
- /* social icons */ 
+  /* social icons */
   --blue-face: #1349c6;
   --blue-twitter: #28a0d5;
   --red-youtube: #e31917;
@@ -26,15 +27,33 @@
   outline: none;
   border: none;
   text-decoration: none;
-  font-family: "Roboto","Montserrat" sans-serif;
+  font-family: "Roboto", "Montserrat" sans-serif;
 }
-html{
-    overflow-x:hidden;
+html {
+  font-size: 90%;
+  overflow-x: hidden;
+  scroll-padding-top: 6.5rem;
+  scroll-behavior: smooth;
 }
-body{
-  /* background: var(--bg); */
-  /* color: var(--white); */
-} 
-
+html::-webkit-scrollbar {
+  width: 1.2rem;
+  height: 0.25px;
+}
+html::-webkit-scrollbar-track {
+  /* background: transparent; */
+  background: inset 0 0 5px #a5aaad;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--azul-claro);
+  border-radius: 5rem;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background: var(--blue-face);
+  cursor: pointer;
+}
+body {
+  background: var(--bg);
+  color: var(--white);
+}
 
 /* reset */
