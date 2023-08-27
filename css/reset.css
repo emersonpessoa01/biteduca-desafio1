@@ -28,6 +28,7 @@
   border: none;
   text-decoration: none;
   font-family: "Roboto", "Montserrat" sans-serif;
+  box-sizing: border-box;
 }
 html {
   font-size: 90%;

@@ -1,6 +1,6 @@
 .footer {
   text-align: center;
-  padding: .5rem 4%;
+  padding: 1.5rem 4%;
 }
 .footer .social {
   padding: 1rem 0;
@@ -56,7 +56,8 @@
   font-family: "Roboto", "Montserrat" sans-serif;
   /* color: var(--grey); */
   font-weight: 500;
-  padding-bottom: 0.5rem;
+  padding:1rem 0;
+  border-top: var(--border);
 }
 .credits span {
   /* color: var(--grey); */
