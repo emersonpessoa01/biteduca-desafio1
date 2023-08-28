@@ -58,7 +58,7 @@
   /* color: var(--grey); */
   font-weight: 500;
   padding: 1rem 0;
-  border-top: var(--border);
+  /* border-top: var(--border); */
 }
 .credits span {
   /* color: var(--grey); */
