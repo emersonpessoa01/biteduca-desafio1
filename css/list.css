@@ -1,6 +1,7 @@
 .list {
   background-color: #24262b;
-  padding: 70px 0;
+  padding: 4rem 4%;
+
 }
 .list-container {
   max-width: 1170px;
@@ -17,6 +18,7 @@ ul {
 .list-col {
   width: 25%;
   padding: 0 15px;
+  font-family: "Roboto";
 }
 .list-col h4 {
   font-size: 18px;

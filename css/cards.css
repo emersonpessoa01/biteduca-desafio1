@@ -52,12 +52,14 @@
 
 /* section post */
 .post {
-  padding: 2rem 4% 0;
+  padding: 4rem 4%;
+
 }
 .heading {
   text-align: center;
   font-size: 1.8rem;
   font-family: "Roboto";
+  margin: 0 0 24px;
 }
 .post-container {
   display: flex;
@@ -67,8 +69,6 @@
   max-width: 1200px;
   margin: 0 auto;
   gap: 1.5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 5rem;
 }
 .post-box {
   flex: 1 1 20rem; /* SE DEIXAR O FLEX SHIRNK 0 E FLEX BASICS IGUAL A LARGURA IMAGEM FICA BACANA */
@@ -86,6 +86,8 @@
 .post-box:hover{
   box-shadow: var(--box-shadow);
   transition: 0.2s ease-in-out;
+  /* background: #fff; */
+  /* color: #1935c9; */
 }
 .img-box {
   width: 100%;

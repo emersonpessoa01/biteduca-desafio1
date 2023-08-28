@@ -54,7 +54,7 @@
 
 .credits {
   font-size: 1rem;
-  font-family: "Roboto", "Montserrat" sans-serif;
+  font-family: "Roboto" !important;
   /* color: var(--grey); */
   font-weight: 500;
   padding: 1rem 0;

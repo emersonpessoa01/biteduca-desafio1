@@ -1,6 +1,8 @@
 .container {
   max-width: 100%;
-  padding: 2rem 4% 0;
+  padding: 4rem 4%;
+  background-color: #24262b;
+  
 }
 .container h1 {
   font-size: clamp(1.5rem, 3vw, 3rem);
@@ -37,7 +39,7 @@ figure.foto-legenda figcaption {
 figure.foto-legenda figcaption h1 {
   width: 50%;
   text-align: left;
-  font-size: clamp(1.5rem,3vw, 3rem) !important;
+  font-size: clamp(1.5rem, 3vw, 3rem) !important;
   font-family: "Roboto" !important;
 }
 figure.foto-legenda p {
@@ -62,4 +64,3 @@ figure.foto-legenda p {
 .container .ultimate {
   margin-bottom: 1rem;
 }
-
