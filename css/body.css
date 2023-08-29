@@ -32,7 +32,7 @@ figure.foto-legenda figcaption {
   top: 50%;
   color: #fff;
   width: 100%;
-  padding: 10px;
+  padding: 4rem 4%;
   box-sizing: border-box; /* cria box dentro da borda */
   font-family: "Roboto", "Montserrat" sans-serif;
 }
