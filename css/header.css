@@ -12,7 +12,8 @@
   z-index: 1000;
 }
 .header.shadow {
-  background: var(--blue-clear);
+  /* background: var(--blue-clear); */
+  background: url(../image/header.jpeg);
   transition: 0.5s;
 }
 .header a img {
