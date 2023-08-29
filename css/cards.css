@@ -98,7 +98,7 @@
 .img-box .post-image {
   display: block;
   height: 200px;
-  /* object-fit: cover; */
+  object-fit: cover;
   filter: contrast(2);
   padding: 1rem;
   margin: 0 auto;
