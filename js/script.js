@@ -50,6 +50,8 @@ const lists = [
     item4: "Vestir",
   },
 ];
+/* FOR OF */
+
 // for (const card of cards) {
 //   const item = `<div class="post-box">
 //   <div class="img-box">
@@ -59,6 +61,31 @@ const lists = [
 // </div>`;
 //   document.querySelector(".post-container").innerHTML += item;
 // }
+
+/* FOR */
+
+// for (let i = 0; i < cards.length; i++) {
+//   const getCards = `<div class="post-box">
+//    <div class="img-box">
+//       <img src="image/${cards[i].image}" alt="imagem html" class="post-image" />
+//     </div>
+//     <span>${cards[i].name}</span>
+//   </div>`;
+//  document.querySelector(".post-container").innerHTML += getCards;
+// }
+
+/* FOREACH */
+// cards.forEach((element) => {
+//   const getCards = `<div class="post-box">
+//    <div class="img-box">
+//       <img src="image/${element.image}" alt="imagem html" class="post-image" />
+//     </div>
+//     <span>${element.name}</span>
+//   </div>`;
+//    document.querySelector(".post-container").innerHTML += getCards;
+// });
+
+/* MAP */
 
 cards.map(({ image, name }) => {
   const getCards = `<div class="post-box">
