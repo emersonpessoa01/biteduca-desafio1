@@ -24,9 +24,34 @@ const cards = [
   { id: 5, name: "bootstrap", image: "icon-4.png" },
   { id: 6, name: "github", image: "icon-5.png" },
 ];
-
+const lists = [
+  {
+    id: 1,
+    title: "Empresa",
+    item1: "Sobre Nós",
+    item2: "Nossos Serviços",
+    item3: "Política De Privacidade",
+    item: "Programa De Afiliados",
+  },
+  {
+    id: 1,
+    title: "Obter Ajuda",
+    item1: "Perguntas Frequentes",
+    item2: "Envio",
+    item3: "Retornos",
+    item: "Status Do Pedido",
+  },
+  {
+    id: 1,
+    title: "Loja Online",
+    item1: "Assistir",
+    item2: "Bolsa",
+    item3: "Sapato",
+    item: "Vestir",
+  },
+];
 // for (const card of cards) {
-//   const card = `<div class="post-box">
+//   const item = `<div class="post-box">
 //   <div class="img-box">
 //     <img src="image/${card.image}" alt="imagem html" class="post-image" />
 //   </div>
@@ -35,12 +60,12 @@ const cards = [
 //   document.querySelector(".post-container").innerHTML += item;
 // }
 
-cards.map(({image,name}) => {
+cards.map(({ image, name }) => {
   const getCards = `<div class="post-box">
   <div class="img-box">
      <img src="image/${image}" alt="imagem html" class="post-image" />
    </div>
    <span>${name}</span>
  </div>`;
- document.querySelector(".post-container").innerHTML += getCards
+  document.querySelector(".post-container").innerHTML += getCards;
 });
