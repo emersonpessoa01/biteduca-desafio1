@@ -35,12 +35,12 @@ const cards = [
 //   document.querySelector(".post-container").innerHTML += item;
 // }
 
-cards.map((card) => {
+cards.map(({image,name}) => {
   const getCards = `<div class="post-box">
   <div class="img-box">
-     <img src="image/${card.image}" alt="imagem html" class="post-image" />
+     <img src="image/${image}" alt="imagem html" class="post-image" />
    </div>
-   <span>${card.name}</span>
+   <span>${name}</span>
  </div>`;
  document.querySelector(".post-container").innerHTML += getCards
 });
