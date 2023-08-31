@@ -31,7 +31,7 @@ const lists = [
     item1: "Sobre Nós",
     item2: "Nossos Serviços",
     item3: "Política De Privacidade",
-    item: "Programa De Afiliados",
+    item4: "Programa De Afiliados",
   },
   {
     id: 1,
@@ -39,7 +39,7 @@ const lists = [
     item1: "Perguntas Frequentes",
     item2: "Envio",
     item3: "Retornos",
-    item: "Status Do Pedido",
+    item4: "Status Do Pedido",
   },
   {
     id: 1,
@@ -47,7 +47,7 @@ const lists = [
     item1: "Assistir",
     item2: "Bolsa",
     item3: "Sapato",
-    item: "Vestir",
+    item4: "Vestir",
   },
 ];
 // for (const card of cards) {
@@ -69,3 +69,17 @@ cards.map(({ image, name }) => {
  </div>`;
   document.querySelector(".post-container").innerHTML += getCards;
 });
+
+for (const list of lists) {
+  const { item1, item2, item3, item4 } = list;
+  const getList = `<div class="list-col">
+  <h4>${list.title}</h4>
+  <ul>
+    <li><a href="#">${item1}</a></li>
+    <li><a href="#">${item2}</a></li>
+    <li><a href="#">${item3}</a></li>
+    <li><a href="#">${item4}</a></li>
+  </ul>
+</div>`;
+  document.querySelector(".row").innerHTML += getList;
+}
