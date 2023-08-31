@@ -1,6 +1,7 @@
-# biteduca-desafio1
+# biteduca-desafio1Preview: 
+[Preview](https://biteduca-desafio1.vercel.app/)
 
-![image](./image/biteduca.jpeg)
+![image](./image/page-biteduca.png)
 
  
 
